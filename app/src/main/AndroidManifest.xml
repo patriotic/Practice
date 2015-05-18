@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.practice"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!--
+     The following two permissions are not required to use
+     Google Maps Android API v2, but are recommended.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+<!--  <uses-library android:name="com.google.android.maps" /> -->
+        <activity
+            android:name="com.example.practice.main.Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.practice.main.Menu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.practice.main.Menu" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".startingpoint.StartingPoint"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.practice.StartingPoint.StartingPoint" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.practice.playingwithtext.PlayingWithText"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.practice.PlayingWithText.PlayingWithText" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.practice.sendemail.SendEmail"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.practice.SendEmail.SendEmail" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.practice.camera.Camera"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.practice.main.AboutUs"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Dialog" >
+            <intent-filter>
+                <action android:name="com.example.practice.AboutUs" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.practice.main.Prefs"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.practice.Prefs" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.practice.animation.Animation"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.practice.animationsurface.AnimationSurface"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.practice.playingwithsound.PlayingWithSound"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.practice.PlayingWithSound" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.practice.slidingdrawerexample.SlidingDrawerExample"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.practice.SlidingDrawerExample" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.practice.tabs.Tabs"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.practice.Tabs" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.practice.browser.Browser"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.practice.Browser.Browser" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.practice.flipper.Flipper"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.practice.Flipper" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.practice.sharedprefs.SharedPrefs"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.practice.SharedPrefs" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.practice.internaldata.InternalData"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.practice.InternalData" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.practice.externaldata.ExternalData"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.practice.ExternalData" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.practice.accelerate.Accelerate"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.practice.Accelerate" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.practice.maps.Maps"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.practice.Maps" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.practice.httpexample.HttpExample"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.practice.HttpExample" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.practice.fragment.Fragment"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.practice.Fragment" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.practice.fragmentlayout.FragmentLayout"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.practice.FragmentLayout" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.practice.fragmentlayout.DetailsActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.practice.swiper.Swiper"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.practice.swiperg.SwiperG"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.practice.SwiperG" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.practice.transition.Transition"
+            android:label="@string/app_name">
+            
+        </activity>
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyC0pmG2Qkq3xNr3IEcb1I4jYf_dIBCuQfQ" />
+    </application>
+
+</manifest>

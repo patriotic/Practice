@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PRACTICE</string>
+    <string name="action_settings">Settings</string>
+    <string name="total_int">Your total is :</string>
+    <string name="add_int">ADD</string>
+    <string name="sub_int">SUBTRACT</string>
+    <string name="total_amount">0</string>
+    <string name="comments">Whats on your mind!</string>
+    <string name="ok_button">OK</string>
+    <string name="email_to">TO :</string>
+    <string name="email_subject">SUBJECT : </string>
+    <string name="email_message">MESSAGE :</string>
+    <string name="send_btn">SEND EMAIL</string>
+    <string name="take_pic">TAKE PICTURE</string>
+    <string name="pref">PREFERENCES</string>
+    <string name="abt_us">ABOUT US</string>
+    <string name="abt_us_txt">THIS THE DIALOG WE HAVE SET UP</string>
+    <string name="exit">EXIT</string>
+
+</resources>

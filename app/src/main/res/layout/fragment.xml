@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fg_container"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/fg_container1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <!--
+    <fragment
+        android:id="@+id/listf"
+        android:name="com.example.thenewboston.ListNews"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+    <fragment
+        android:id="@+id/viewf"
+        android:name="com.example.thenewboston.SingleNews"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+        -->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fg_container2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+     
+
+    </LinearLayout>
+
+</LinearLayout>
