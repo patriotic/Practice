@@ -14,5 +14,7 @@ public class AboutUs extends Activity{
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.about_us);
 	}
+
+
 	
 }
