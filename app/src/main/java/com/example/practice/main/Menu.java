@@ -43,7 +43,6 @@ public class Menu extends ListActivity {
 			e.printStackTrace();
 		}
 
-
 	}
 
 	@Override
